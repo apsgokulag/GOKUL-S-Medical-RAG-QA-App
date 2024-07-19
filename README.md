@@ -9,8 +9,7 @@ The LLM App uses [Pathway](https://pathway.com/), An awesome package to handle r
 
 ## Demo
 Follow these steps to immerse yourself into Generative AI Storytelling
-https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/blob/main/GOKULs%20Medical%20support%20Chatbot%20-%20Google%20Chrome%202024-07-20%2003-28-55.mp4
-
+GOKULs Medical support Chatbot - Google Chrome 2024-07-20 03-28-55.mp4
 
 
 ## Technologies Used
