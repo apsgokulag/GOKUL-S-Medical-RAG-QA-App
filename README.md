@@ -29,17 +29,16 @@ Docker:improving datasets api configuration and support for localhost server.
 
 ## How to run the tool
 1. **Clone the repository:**
-    ```bash
 https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/tree/main/MEDrag
-   ```
 cd MEDrag;
 
 3. **Install dependencies:**
    install all requirments packages using this command.
-   ```bash
+   
+    ```bash
    py -m pip install -r .\requirements.txt
    ```
-4. **download the docker**
+5. **download the docker**
       ```bash
    https://www.docker.com/products/docker-desktop/
       ```
