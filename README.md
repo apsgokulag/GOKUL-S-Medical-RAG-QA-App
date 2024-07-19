@@ -9,14 +9,17 @@ The LLM App uses [Pathway](https://pathway.com/), An awesome package to handle r
 
 ## Demo
 Follow these steps to immerse yourself into Generative AI Storytelling
+https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/blob/main/GOKULs%20Medical%20support%20Chatbot%20-%20Google%20Chrome%202024-07-20%2003-28-55.mp4
 
 
 
 ## Technologies Used
-
 *OpenAI
+
 *Docker
+
 *meditron-7B-GGUF
+
 *Python 3.12.4  
 
 ## Features
@@ -28,24 +31,33 @@ Docker:improving datasets api configuration and support for localhost server.
 
 ## How to run the tool
 1. **Clone the repository:**
+    ```bash
 https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/tree/main/MEDrag
+   ```
 cd MEDrag;
 
-2. **Install dependencies:**
+3. **Install dependencies:**
    install all requirments packages using this command.
    ```bash
    py -m pip install -r .\requirements.txt
    ```
-3. **download the docker**
+4. **download the docker**
+      ```bash
    https://www.docker.com/products/docker-desktop/
+      ```
 create an account and sign-in
-check docker is downloaded successfully 
+check docker is downloaded successfully
+```bash
 docker --version 
-
+   ```
 activate image section and create qdrant using this command.
+   ```bash
      docker pull qdrant/qdrant
+   ```
    or
+      ```bash
     docker build -t qdrant/qdrant
+       ```
     
 4. **Install the package**
    
