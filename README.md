@@ -38,36 +38,43 @@ cd MEDrag;
     ```bash
    py -m pip install -r .\requirements.txt
    ```
-5. **download the docker**
+4. **download the docker**
+
       ```bash
    https://www.docker.com/products/docker-desktop/
       ```
 create an account and sign-in
 check docker is downloaded successfully
+
 ```bash
 docker --version 
    ```
+
 activate image section and create qdrant using this command.
+
    ```bash
      docker pull qdrant/qdrant
    ```
    or
+   
       ```bash
     docker build -t qdrant/qdrant
        ```
     
-4. **Install the package**
+5. **Install the package**
+   
        ```bash
   py -m pip install -U langchain-huggingface 
       ```
 
 Similarly, update to the new langchain-qdrant package:
+
     ```bash
 pip install -U langchain-qdrant
     ```bash
 
 
-5. **How to Use It**
+6. **How to Use It**
 
 The command docker run -p 6333:6333 qdrant/qdrant is used to run the Qdrant vector database inside a Docker container. Here's a breakdown of what each part of the command does:
 
