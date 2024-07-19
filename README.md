@@ -9,7 +9,9 @@ The LLM App uses [Pathway](https://pathway.com/), An awesome package to handle r
 
 ## Demo
 Follow these steps to immerse yourself into Generative AI Storytelling
-https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/blob/main/GOKULs%20Medical%20support%20Chatbot%20-%20Google%20Chrome%202024-07-20%2003-28-55%20(1).mp4
+
+https://github.com/user-attachments/assets/056588e5-99f8-4db2-bfca-b1a01f7e6f90
+
 
 ## Technologies Used
 *OpenAI
@@ -71,7 +73,7 @@ Similarly, update to the new langchain-qdrant package:
 
     ```bash
 pip install -U langchain-qdrant
-    ```bash
+    ```
 
 
 6. **How to Use It**
