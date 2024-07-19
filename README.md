@@ -47,8 +47,8 @@ create an account and sign-in
 check docker is downloaded successfully
 
 ```bash
-docker --version 
-   ```
+   docker --version 
+ ```
 
 activate image section and create qdrant using this command.
 
@@ -63,9 +63,9 @@ activate image section and create qdrant using this command.
     
 5. **Install the package**
    
-       ```bash
-  py -m pip install -U langchain-huggingface 
-      ```
+  ```bash
+     py -m pip install -U langchain-huggingface 
+  ```
 
 Similarly, update to the new langchain-qdrant package:
 
@@ -85,9 +85,17 @@ docker run: This is the command to create and start a new Docker container.
 qdrant/qdrant: This specifies the Docker image to use for the container. In this case, it is the official Qdrant image.
 also you must run the docker host for 
  firstly,you must be run this package of code
+ 
+     ```bash
  python ingest.py
+     ```
+
  then,it have some database is downloaded into your docker env collection.To check that collection database 
- http://localhost:6333/dashboard
+
+     ```bash
+      http://localhost:6333/dashboard
+     ```
+
 you can check the vector_db in that docker collection.so you must run another code of commands,
 python .\retriever.py 
 
