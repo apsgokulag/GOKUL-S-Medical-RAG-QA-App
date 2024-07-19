@@ -13,10 +13,11 @@ Follow these steps to immerse yourself into Generative AI Storytelling
 
 
 ## Technologies Used
-OpenAI
-Docker
-meditron-7B-GGUF
-Python 3.12.4  
+
+*OpenAI
+*Docker
+*meditron-7B-GGUF
+*Python 3.12.4  
 
 ## Features
 OpenAI Modules: Enhances natural language understanding and generation capabilities.
@@ -32,9 +33,9 @@ cd MEDrag;
 
 2. **Install dependencies:**
    install all requirments packages using this command.
-   
+   ```bash
    py -m pip install -r .\requirements.txt
-
+   ```
 3. **download the docker**
    https://www.docker.com/products/docker-desktop/
 create an account and sign-in
