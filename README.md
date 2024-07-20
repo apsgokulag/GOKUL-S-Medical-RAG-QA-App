@@ -104,8 +104,9 @@ http://localhost:6333/dashboard
   ```
 
 you can check the vector_db in that docker collection.so you must run another code of commands,
+```bash
 python .\retriever.py 
-
+```
 then you will get some metadata and page_content.after that, you can run the last code command for activating the chatbot,
 (https://huggingface.co/TheBloke/meditron-7B-GGUF)
 ```bash
