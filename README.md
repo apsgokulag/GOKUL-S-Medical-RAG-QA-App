@@ -61,7 +61,7 @@ activate image section and create qdrant using this command.
    ```bash
      docker pull qdrant/qdrant
    ```
-   or
+
       ```bash 
     docker build -t qdrant/qdrant
         ```
@@ -93,9 +93,11 @@ qdrant/qdrant: This specifies the Docker image to use for the container. In this
 also you must run the docker host for 
  firstly,you must be run this package of code
  
-     ```bash
+    
+ ```bash
  python ingest.py
-     ```
+  ```
+  
 
  then,it have some database is downloaded into your docker env collection.To check that collection database 
 
