@@ -71,8 +71,9 @@ activate image section and create qdrant using this command.
 
 Similarly, update to the new langchain-qdrant package:
 
+
     ```bash
-pip install -U langchain-qdrant
+       pip install -U langchain-qdrant
     ```
 
 
