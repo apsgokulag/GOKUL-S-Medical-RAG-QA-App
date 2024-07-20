@@ -31,7 +31,11 @@ Docker:improving datasets api configuration and support for localhost server.
 
 ## How to run the tool
 1. **Clone the repository:**
-https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/tree/main/MEDrag
+2. 
+   ```bash
+     https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/tree/main/MEDrag
+   ```
+   
 cd MEDrag;
 
 3. **Install dependencies:**
@@ -58,10 +62,10 @@ activate image section and create qdrant using this command.
      docker pull qdrant/qdrant
    ```
    or
-   
-      ```bash
+      ```bash 
     docker build -t qdrant/qdrant
-       ```
+        ```
+
     
 5. **Install the package**
    
