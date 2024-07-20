@@ -62,9 +62,10 @@ activate image section and create qdrant using this command.
      docker pull qdrant/qdrant
    ```
 
-    ```bash 
+  ```bash
        docker build -t qdrant/qdrant
-     ```
+   ```
+     
 
     
 5. **Install the package**
@@ -73,15 +74,11 @@ activate image section and create qdrant using this command.
   py -m pip install -U langchain-huggingface 
   ```
 
-
 Similarly, update to the new langchain-qdrant package:
 
-
-    ```bash
+  ```bash
        pip install -U langchain-qdrant
-    ```
-
-
+  ```
 6. **How to Use It**
 
 The command docker run -p 6333:6333 qdrant/qdrant is used to run the Qdrant vector database inside a Docker container. Here's a breakdown of what each part of the command does:
