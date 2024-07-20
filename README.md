@@ -31,20 +31,20 @@ Docker:improving datasets api configuration and support for localhost server.
 
 ## How to run the tool
 1. **Clone the repository:**
-2. 
+ 
    ```bash
      https://github.com/apsgokulag/GOKUL-S-Medical-RAG-QA-App/tree/main/MEDrag
    ```
    
 cd MEDrag;
 
-3. **Install dependencies:**
+2. **Install dependencies:**
    install all requirments packages using this command.
    
     ```bash
    py -m pip install -r .\requirements.txt
    ```
-4. **download the docker**
+3. **download the docker**
 
       ```bash
    https://www.docker.com/products/docker-desktop/
@@ -56,7 +56,7 @@ check docker is downloaded successfully
    docker --version 
  ```
 
-activate image section and create qdrant using this command.
+4.activate image section and create qdrant using this command.
 
    ```bash
      docker pull qdrant/qdrant
@@ -82,9 +82,9 @@ Similarly, update to the new langchain-qdrant package:
 6. **How to Use It**
 
 The command docker run -p 6333:6333 qdrant/qdrant is used to run the Qdrant vector database inside a Docker container. Here's a breakdown of what each part of the command does:
-
+ ```bash
 docker run -p 6333:6333 qdrant/qdrant
-
+  ```
 docker run: This is the command to create and start a new Docker container.
 -p 6333:6333: This option maps port 6333 on your local machine (host) to port 6333 on the Docker container. It allows you to access the Qdrant service running inside the container via port 6333 on your host machine.
 qdrant/qdrant: This specifies the Docker image to use for the container. In this case, it is the official Qdrant image.
@@ -108,9 +108,9 @@ python .\retriever.py
 
 then you will get some metadata and page_content.after that, you can run the last code command for activating the chatbot,
 (https://huggingface.co/TheBloke/meditron-7B-GGUF)
-
+```bash
 uvicorn rag:app 
-
+```
 this will download the basic repo contains GGUF format model files for EPFL LLM Team's Meditron 7B.llama.cpp. The source project for GGUF. Offers a CLI and a server option.
 The following clients/libraries will automatically download models for you, providing a list of available models to choose from:
 LM Studio
