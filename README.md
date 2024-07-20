@@ -62,9 +62,9 @@ activate image section and create qdrant using this command.
      docker pull qdrant/qdrant
    ```
 
-      ```bash 
-    docker build -t qdrant/qdrant
-        ```
+    ```bash 
+       docker build -t qdrant/qdrant
+     ```
 
     
 5. **Install the package**
@@ -78,7 +78,7 @@ Similarly, update to the new langchain-qdrant package:
 
 
     ```bash
-    pip install -U langchain-qdrant
+       pip install -U langchain-qdrant
     ```
 
 
