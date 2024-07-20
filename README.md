@@ -70,14 +70,15 @@ activate image section and create qdrant using this command.
 5. **Install the package**
    
   ```bash
-     py -m pip install -U langchain-huggingface 
+  py -m pip install -U langchain-huggingface 
   ```
+
 
 Similarly, update to the new langchain-qdrant package:
 
 
     ```bash
-       pip install -U langchain-qdrant
+    pip install -U langchain-qdrant
     ```
 
 
@@ -101,9 +102,9 @@ also you must run the docker host for
 
  then,it have some database is downloaded into your docker env collection.To check that collection database 
 
-     ```bash
-      http://localhost:6333/dashboard
-     ```
+```bash
+http://localhost:6333/dashboard
+  ```
 
 you can check the vector_db in that docker collection.so you must run another code of commands,
 python .\retriever.py 
